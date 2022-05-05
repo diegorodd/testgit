@@ -1,20 +1,104 @@
-body {
-    /* background */    color:black;
-}
-
-.grass{
-    color:black
-}
 
 
-.list{
-    color:red
+header{
+    color: green;
 }
 
-#list-item{
-    color: black;
-}
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+  }
 
-body {
-    background-color:white
-}
+header h1 {
+    font-weight: bold;
+    font-size: 42px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+  }
+  
+
+header a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  header nav ul li {
+    display: inline;
+  }
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+  body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-seri
+
+    * {
+        margin: 0;
+        padding: 0;
+      }
+
+      footer {
+        background: #fce138;
+        width: 100%;
+        padding: 40px 35px;
+      }
+
+      footer h2 {
+        display: inline;
+        color: #024e76;
+        font-size: 30px;
+        margin: 0;
+      }
+      footer div {
+        float: right;
+        line-height: 1.5;
+        text-align: right;
+        
+      }
+      footer a {
+        color: #024e76;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .trainer
+        text-align: center;
+        }
+        .trainer {
+        width: 900px;
+        margin: 0 auto 30px auto;
+        background: darkblue;
+        color: white;
+        overflow: auto;
+       
+      }
+      .trainer img {
+        width: 35%;
+        float:left;
+      }
+      .trainer p {
+          width: 40%;
+          float: right;
+      }
+      
+      .trainer-bio {
+        width: 40%
+        float: right;
+        padding: 35px;
+       
+      }
+     
+         
+      }
+
